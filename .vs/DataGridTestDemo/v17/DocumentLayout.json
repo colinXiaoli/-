@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|c:\\users\\han\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\datagridtestdemo\\datagridtestdemo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|solutionrelative:datagridtestdemo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|c:\\users\\han\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\datagridtestdemo\\datagridtestdemo\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|solutionrelative:datagridtestdemo\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|c:\\users\\han\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\datagridtestdemo\\datagridtestdemo\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|solutionrelative:datagridtestdemo\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|c:\\users\\han\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\datagridtestdemo\\datagridtestdemo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C994CC1-5C64-40FC-AE32-285457BCD2A6}|DataGridTestDemo\\DataGridTestDemo.csproj|solutionrelative:datagridtestdemo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\App.axaml",
+              "RelativeDocumentMoniker": "DataGridTestDemo\\App.axaml",
+              "ToolTip": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\App.axaml",
+              "RelativeToolTip": "DataGridTestDemo\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T13:59:13.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "DataGridTestDemo\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\MainViewModel.cs",
+              "RelativeToolTip": "DataGridTestDemo\\MainViewModel.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAIwHYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:46:04.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "DataGridTestDemo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\MainWindow.axaml",
+              "RelativeToolTip": "DataGridTestDemo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T13:38:46.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "DataGridTestDemo\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\han\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\DataGridTestDemo\\DataGridTestDemo\\MainWindow.axaml.cs",
+              "RelativeToolTip": "DataGridTestDemo\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:38:45.308Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

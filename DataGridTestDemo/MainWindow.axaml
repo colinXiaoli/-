@@ -1,0 +1,94 @@
+<Window
+    x:Class="DataGridTestDemo.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="DataGridTestDemo"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    x:CompileBindings="False"
+    mc:Ignorable="d">
+    <Window.Styles>
+        <StyleInclude Source="avares://Semi.Avalonia.DataGrid/Index.axaml" />
+        <StyleInclude Source="avares://Semi.Avalonia.TreeDataGrid/Index.axaml" />
+    </Window.Styles>
+    <TabControl>
+        <TabItem Header="DataGrid">
+            <Grid RowDefinitions="Auto,*">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Text="数据量：" />
+                        <TextBox
+                            MinWidth="100"
+                            VerticalAlignment="Center"
+                            Text="{Binding TotalPoint}" />
+                    </StackPanel>
+                    <StackPanel
+                        Margin="10,0"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Text="通道数：" />
+                        <TextBox
+                            MinWidth="100"
+                            VerticalAlignment="Center"
+                            Text="{Binding TotalChannel}" />
+                    </StackPanel>
+                    <Button
+                        VerticalAlignment="Center"
+                        Command="{Binding GenderDataGridData}"
+                        Content="点击生成数据" />
+                </StackPanel>
+                <DataGrid
+                    Name="datagrid"
+                    Grid.Row="1"
+                    Margin="5"
+                    BorderBrush="#555"
+                    BorderThickness="1"
+                    CanUserReorderColumns="True"
+                    CanUserResizeColumns="True"
+                    CanUserSortColumns="True"
+                    HeadersVisibility="All"
+                    ItemsSource="{Binding DataGridModels}"
+                    ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                    ScrollViewer.VerticalScrollBarVisibility="Auto" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="TreeDataGrid">
+            <Grid RowDefinitions="Auto,*">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Text="数据量：" />
+                        <TextBox
+                            MinWidth="100"
+                            VerticalAlignment="Center"
+                            Text="{Binding TotalPoint}" />
+                    </StackPanel>
+                    <StackPanel
+                        Margin="10,0"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Text="通道数：" />
+                        <TextBox
+                            MinWidth="100"
+                            VerticalAlignment="Center"
+                            Text="{Binding TotalChannel}" />
+                    </StackPanel>
+                    <Button
+                        VerticalAlignment="Center"
+                        Command="{Binding GenderTreeDataGridData}"
+                        Content="点击生成数据" />
+                </StackPanel>
+                <TreeDataGrid
+                    Grid.Row="1"
+                    Margin="5"
+                    AutoDragDropRows="True"
+                    BorderBrush="#555"
+                    BorderThickness="1"
+                    ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                    ScrollViewer.VerticalScrollBarVisibility="Auto"
+                    Source="{Binding PointDatas}" />
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>
